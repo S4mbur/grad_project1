@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.tex
+*.bib
+*.sh
+# Windows Zone.Identifier files
+*Zone.Identifier
+*:Zone.Identifier
+
+# Large data files - not for GitHub
+data/tiles/
+data/raw_wsi/
+data/gdc/
+data/tmp/
+data/heatmaps/
+data/gradcam_demo/
+data/debug/
+data/reports/
+
+# Temporary manifest files (keep only essential ones)
+data/manifests/*predictions*.csv
+data/manifests/*results*.csv
+data/manifests/*scores*.csv
+data/manifests/*hard*.csv
+data/manifests/grid_*.csv
+data/manifests/fp_*.csv
+data/manifests/slide_manifest_batch*.csv
+data/debug/
+*.svs
+*.tif
+*.tiff
+*.ndpi
+
+# Model checkpoints (large files)
+logs/checkpoints/
+logs/runs/
+logs/*.pt
+*.pt
+
+# Temporary/working files
+training.log
+tiles_preview.png
+
+# Internal documentation (not for public repo)
+CONTINUE_FROM_HERE.md
+REPORT_WRITING_GUIDE.md
+POST_TRAINING_GUIDE.md
+PROJECT_STATUS.md
+PROJECT_CONTEXT.md
+TECHNICAL_DEEP_DIVE_PART1.md
+TECHNICAL_DEEP_DIVE_PART2.md
+TECHNICAL_DEEP_DIVE_PART3.md
+RESULTS_COMPARISON.md
+FINAL_REPORT.md
+reports/MERMAID_DIAGRAMS.md
+reports/PIPELINE_COMPLETE_REPORT.md
+
+# GradCAM files (not used in final report)
+reports/figures/gradcam/
+reports/figures/gradcam_*.png
+
+# Template files
+graduation_project_interim_template.tex
+
+# Reference PDFs
+*.pdf
